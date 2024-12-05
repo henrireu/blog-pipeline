@@ -12,6 +12,7 @@
 	  "dev:backend": "npm run dev --workspace backend",
 	  "dev:frontend": "npm run dev --workspace frontend",
 	  "start:test": "npm run start:test --workspace backend",
-	  "test:e2e": "npm run test --workspace e2e"
+	  "test:e2e": "npm run test --workspace e2e",
+      "test": "npm test --workspace backend"
 	}
 }
