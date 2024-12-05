@@ -4,9 +4,7 @@
 	"private": true,
 	"description": "",
 	"workspaces": [
-		"frontend",
-		"backend",
-		"e2e"
+		"backend"
 	],
 	"scripts": {
 	  "build": "npm run build --workspace frontend",
